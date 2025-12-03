@@ -6,7 +6,6 @@
 }
 
 .projects-title {
-
     font-size: 2.5rem;
     margin-bottom: 3rem;
     font-weight: 700;
@@ -18,13 +17,15 @@
     border-radius: 8px;
     padding: 2px 4px;
     transition: transform 0.3s ease, text-shadow 0.3s ease;
-
 }
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .project-card {
@@ -38,9 +39,14 @@
     justify-content: space-between;
 }
 
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+}
+
 .project-image-wrapper {
     overflow: hidden;
-    height: 200px;
+    height: 180px;
 }
 
 .project-image {
@@ -62,19 +68,20 @@
 }
 
 .project-content h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
     color: #e2e8f0;
 }
 
 .description {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     margin-bottom: 0.8rem;
     color: #dcdcdc;
+    line-height: 1.5;
 }
 
 .tools {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: #bbb;
     margin-bottom: 1.2rem;
 }
@@ -88,11 +95,11 @@
 
 .btn {
     text-align: center;
-    padding: 0.8rem 2.3rem;
+    padding: 0.7rem 2rem;
     border-radius: 0.8rem;
     background: linear-gradient(135deg, #3b82f6, #06b6d4);
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -106,8 +113,6 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(59, 130, 246, 0.4);
 }
-
-
 
 .see-all-container {
     margin-top: 3rem;
@@ -128,10 +133,19 @@
     transform: scale(1.08);
 }
 
-/*RESPONSIVE */
+/* RESPONSIVE */
+@media (max-width: 1400px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+}
+
 @media (max-width: 1024px) {
     .projects-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 1.8rem;
     }
 }
 
@@ -141,7 +155,8 @@
     }
 
     .projects-grid {
-        gap: 1.8rem;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
     .project-content h3 {
@@ -158,10 +173,6 @@
 }
 
 @media (max-width: 480px) {
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
-
     .btn {
         font-size: 0.85rem;
         padding: 0.6rem 1rem;
