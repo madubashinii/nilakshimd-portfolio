@@ -4,19 +4,28 @@ import "../styles/Projects.css";
 import project1Image from "../assets/project1.png";
 import projectImage from "../assets/projectImg.png";
 import projectImage3 from "../assets/projectImg3.png";
+import home_loggedUser from "../assets/home_loggedUser.png"
 
 const projectList = [
     {
         title: 'NeoMart - Shopping Web Application',
-        description: 'A dynamic, responsive shopping app with Angular frontend and Spring Boot backend.',
+        description: 'A full-stack e-commerce platform with a dynamic UI, secure backend, and seamless shopping experience.',
         tools: 'Angular, Spring Boot, REST APIs, Material Design',
         codeLink: 'https://github.com/madubashinii/NeoMart',
         demoLink: 'https://yourliveprojectdemo.com',
         image: projectImage,
     },
     {
+        title: 'VYBE - Workout Tracker Web App',
+        description: 'A full-stack fitness app to log workouts, track progress, and manage custom workout plans.',
+        tools: 'Next.js, Node.js, Express.js, MongoDB, JWT',
+        codeLink: 'https://github.com/madubashinii/VYBE',
+        demoLink: 'https://yourliveprojectdemo.com',
+        image: home_loggedUser,
+    },
+    {
         title: 'WildWaves - Boat Safari Trip Management System',
-        description: 'A web-based system to manage boat safari bookings.',
+        description: 'A booking and management system designed to streamline boat safari reservations and trip scheduling.',
         tools: 'HTML, CSS, JS, PHP, MySQL, XAMMP server',
         codeLink: 'https://github.com/madubashinii/wildwaves',
         demoLink: 'https://yourliveprojectdemo.com',
@@ -24,7 +33,7 @@ const projectList = [
     },
     {
         title: 'Boutique - Hotel Management System ',
-        description: 'A full-stack hotel booking system',
+        description: 'A hotel reservation and management system with booking, room management, and admin dashboard features.',
         tools: 'Java, JSP, Servlets, HTML, CSS, JS, MySQL, Apache Tomcat',
         codeLink: 'https://github.com/madubashinii/Boutique',
         demoLink: 'https://yourliveprojectdemo.com',
