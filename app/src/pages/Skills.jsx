@@ -3,12 +3,13 @@ import '../styles/Skills.css';
 import {
   SiReact, SiJavascript, SiTailwindcss, SiHtml5, SiCss3,
   SiMysql, SiMongodb, SiNodedotjs, SiGithub, SiFigma,
-  SiPostman, SiGit
+  SiPostman, SiGit, SiNextdotjs, SiExpress, SiPython, SiVisualstudiocode, SiIntellijidea 
 } from "react-icons/si";
 import { FaJava, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const skills = [
   { title: 'React', icon: <SiReact />, category: 'frontend' },
+  { title: 'Next.js', icon: <SiNextdotjs />, category: 'frontend' }, 
   { title: 'JavaScript', icon: <SiJavascript />, category: 'frontend' },
   { title: 'Tailwind CSS', icon: <SiTailwindcss />, category: 'frontend' },
   { title: 'HTML', icon: <SiHtml5 />, category: 'frontend' },
@@ -16,11 +17,15 @@ const skills = [
   { title: 'Java', icon: <FaJava />, category: 'backend' },
   { title: 'MySQL', icon: <SiMysql />, category: 'backend' },
   { title: 'Node.js', icon: <SiNodedotjs />, category: 'backend' },
+  { title: 'Express.js', icon: <SiExpress />, category: 'backend' },
   { title: 'MongoDB', icon: <SiMongodb />, category: 'backend' },
+  { title: 'Python', icon: <SiPython />, category: 'backend' },
   { title: 'GitHub', icon: <SiGithub />, category: 'tools' },
-  { title: 'Figma', icon: <SiFigma />, category: 'tools' },
   { title: 'Git', icon: <SiGit />, category: 'tools' },
   { title: 'Postman', icon: <SiPostman />, category: 'tools' },
+  { title: 'Figma', icon: <SiFigma />, category: 'tools' },
+  { title: 'VS Code', icon: <SiVisualstudiocode />, category: 'tools' }, 
+  { title: 'IntelliJ', icon: <SiIntellijidea />, category: 'tools' },
 ];
 
 const categories = ['All', 'Frontend', 'Backend', 'Tools'];
