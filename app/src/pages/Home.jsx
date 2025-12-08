@@ -32,9 +32,8 @@ function Home() {
                 </div>
 
                 <p className="bio">
-                    Passionate about building elegant, scalable solutions through
-                    full-stack web development. This portfolio showcases my creativity,
-                    innovation, and continuous growth in the world of software engineering.
+                    Full-stack web developer passionate about building scalable, elegant solutions. 
+                    This portfolio highlights my projects, skills, and continuous learning in the world of software engineering.
                 </p>
 
                 <div className="cta-buttons">
