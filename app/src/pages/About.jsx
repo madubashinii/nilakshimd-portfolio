@@ -24,11 +24,15 @@ function About() {
                     </p>
 
                     <p>
-                        I have gained hands-on experience in modern web technologies, software development practices, and a range of programming languages throughout my academic journey. I enjoy solving problems, exploring new ideas, and building practical, real-world applications.
+                        Throughout my academic journey, I have gained hands-on experience in modern web technologies, software development practices, and a diverse range of programming languages. I thrive on solving complex problems, exploring innovative ideas, and building practical, real-world applications that make an impact.
                     </p>
 
                     <p>
-                        My passion lies in <span className="accent">full-stack development</span>, where I bring together frontend creativity and backend logic to create complete, user-centric solutions. I value collaboration and believe that working with others enhances both learning and innovation.
+                        My passion lies in <span className="accent">full-stack development</span>, where I blend frontend creativity with backend logic to create seamless, user-centric solutions. Lately, I have been diving myself in AI technologies, exploring how machine learning and intelligent systems can enhance software experiences.
+                    </p>
+                        
+                    <p>
+                        <i>"Always learning, always building, always innovating—this is my journey in software engineering."</i>
                     </p>
                 </div>
 
