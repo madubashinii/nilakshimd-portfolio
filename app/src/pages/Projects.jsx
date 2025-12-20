@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLink } from "react-icons/fa";
 import "../styles/Projects.css";
 import project1Image from "../assets/project1.png";
-import projectImage from "../assets/projectImg.png";
+import neomartImage from "../assets/neomart.png";
 import projectImage3 from "../assets/projectImg3.png";
 import home_loggedUser from "../assets/home_loggedUser.png"
 
@@ -13,7 +13,7 @@ const projectList = [
         tools: 'Angular, Spring Boot, REST APIs, Material Design',
         codeLink: 'https://github.com/madubashinii/NeoMart',
         demoLink: 'https://yourliveprojectdemo.com',
-        image: projectImage,
+        image: neomartImage,
     },
     {
         title: 'VYBE - Workout Tracker Web App',
