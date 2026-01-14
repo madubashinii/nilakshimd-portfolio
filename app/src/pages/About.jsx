@@ -38,7 +38,7 @@ function About() {
                 <div className="info-bar">
                     <div className="info-item">
                         <span className="info-label">Current GPA</span>
-                        <span className="info-value">3.52</span>
+                        <span className="info-value">3.45</span>
                     </div>
                     <div className="divider"></div>
                     <div className="info-item">
