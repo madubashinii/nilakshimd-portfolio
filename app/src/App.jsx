@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import './App.css'
 import Navbar from './pages/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import Education from './pages/Education'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,6 +23,7 @@ function App() {
         <Home />
         <About />
         <Skills />
+        <Education />
         <Projects />
         <Contact />
       </main>
