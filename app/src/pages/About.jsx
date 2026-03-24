@@ -16,7 +16,7 @@ function About() {
             <div className="grid-bg"></div>
 
             <div className="about-content">
-                <h1 className="main-heading">About Me</h1>
+                <div className='header'><h1>About Me</h1></div>
 
                 <div className="text-content">
                     <p className="highlight-text">

@@ -43,22 +43,7 @@
     max-width: 900px;
     width: 100%;
     z-index: 1;
-}
-
-.main-heading {
-    font-size: 3.2rem;
-    font-weight: 800;
-    background: linear-gradient(135deg, #3b82f6, #06b6d4);
-    background-clip: text;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-    color: transparent;
-    line-height: 1.1;
-    margin-bottom: 3rem;
-    margin-top: 5rem;
-    padding: 2px 4px;
-    text-align: center;
-    opacity: 0;
-    animation: fadeInUp 0.8s ease-out 0.3s forwards;
+    padding-top: 2rem;
 }
 
 @keyframes fadeInUp {
@@ -301,8 +286,8 @@
         padding: 5rem 1.5rem;
     }
 
-    .main-heading {
-        font-size: 2.6rem;
+    .about-content {
+        padding-top: 1.5rem;
     }
 
     .text-content p {
@@ -331,10 +316,6 @@
 }
 
 @media (max-width: 480px) {
-    .main-heading {
-        font-size: 2.2rem;
-    }
-
     .text-content p {
         font-size: 1rem;
     }

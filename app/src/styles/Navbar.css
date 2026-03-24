@@ -57,11 +57,6 @@ nav {
     color: #00b4d8;
 }
 
-.nav-links li a.active {
-    background-color: #1e2d53;
-    color: #ffffff;
-}
-
 @media (max-width: 768px) {
     .hamburger {
         display: flex;

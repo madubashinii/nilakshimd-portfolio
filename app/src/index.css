@@ -27,8 +27,8 @@ body {
 }
 
 .header h1 {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 700;
   background: linear-gradient(135deg, #3b82f6, #06b6d4);
   background-clip: text;
   -webkit-background-clip: text;
@@ -39,5 +39,5 @@ body {
   border-radius: 8px;
   padding: 2px 4px;
   transition: transform 0.3s ease, text-shadow 0.3s ease;
-  margin-top: 3rem;
+  margin-top: 3rem !important;
 }

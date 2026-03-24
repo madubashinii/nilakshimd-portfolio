@@ -1,5 +1,5 @@
 .contact-page {
-    padding: 6rem 2rem;
+    padding: 4.5rem 2rem 6rem;
     min-height: 100vh;
     color: #e0e6f0;
     background: linear-gradient(to right, #0a2435, #0d293d);
@@ -176,7 +176,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
     .contact-page {
-        padding: 4rem 1.5rem;
+        padding: 3rem 1.5rem 4rem;
     }
 
     .header {
@@ -195,7 +195,7 @@ textarea {
 
 @media screen and (max-width: 480px) {
     .contact-page {
-        padding: 3rem 1rem;
+        padding: 2.5rem 1rem 3rem;
     }
 
     .header h1 {
