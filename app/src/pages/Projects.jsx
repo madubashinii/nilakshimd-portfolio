@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLink } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import "../styles/Projects.css";
 import project1Image from "../assets/project1.png";
 import neomartImage from "../assets/neomart.png";
