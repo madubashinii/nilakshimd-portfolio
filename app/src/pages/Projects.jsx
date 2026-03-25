@@ -75,9 +75,9 @@ function Projects() {
                                 <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="btn-ghost">
                                     <FaGithub /> Code
                                 </a>
-                                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                                {/* <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn-primary">
                                     <FaExternalLinkAlt /> Live Demo
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>
